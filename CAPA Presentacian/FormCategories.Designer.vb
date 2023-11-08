@@ -167,7 +167,7 @@ Partial Class FormCategories
         ' 
         ' txt_itemname
         ' 
-        txt_itemname.Location = New Point(126, 73)
+        txt_itemname.Location = New Point(125, 73)
         txt_itemname.Name = "txt_itemname"
         txt_itemname.Size = New Size(151, 23)
         txt_itemname.TabIndex = 3
@@ -184,7 +184,7 @@ Partial Class FormCategories
         ' 
         ' txt_Codeitem
         ' 
-        txt_Codeitem.Location = New Point(125, 40)
+        txt_Codeitem.Location = New Point(124, 40)
         txt_Codeitem.Name = "txt_Codeitem"
         txt_Codeitem.Size = New Size(152, 23)
         txt_Codeitem.TabIndex = 1
