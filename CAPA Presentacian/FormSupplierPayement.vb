@@ -69,7 +69,7 @@
         End If
     End Sub
 
-    Private Sub btnnew_Click() Handles btnNew.Click
+    Private Sub btnnew_Click()
         DGV.DataSource = ""
         clean()
     End Sub

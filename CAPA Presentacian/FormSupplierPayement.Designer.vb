@@ -35,6 +35,7 @@ Partial Class FormSupplierPayement
         btnClose = New Button()
         btnSave = New Button()
         GroupBox1 = New GroupBox()
+        TextBox1 = New TextBox()
         txtCodSupplier = New TextBox()
         txtNameSup = New TextBox()
         btnShow = New Button()
@@ -70,7 +71,6 @@ Partial Class FormSupplierPayement
         Panel2 = New Panel()
         Label1 = New Label()
         Panel3 = New Panel()
-        TextBox1 = New TextBox()
         Panel1.SuspendLayout()
         GroupBox1.SuspendLayout()
         GroupBox2.SuspendLayout()
@@ -150,6 +150,14 @@ Partial Class FormSupplierPayement
         GroupBox1.TabIndex = 5
         GroupBox1.TabStop = False
         GroupBox1.Text = "Detail Supplier "
+        ' 
+        ' TextBox1
+        ' 
+        TextBox1.Location = New Point(265, 87)
+        TextBox1.Name = "TextBox1"
+        TextBox1.Size = New Size(100, 23)
+        TextBox1.TabIndex = 91
+        TextBox1.Visible = False
         ' 
         ' txtCodSupplier
         ' 
@@ -567,13 +575,6 @@ Partial Class FormSupplierPayement
         Panel3.Name = "Panel3"
         Panel3.Size = New Size(708, 4)
         Panel3.TabIndex = 21
-        ' 
-        ' TextBox1
-        ' 
-        TextBox1.Location = New Point(265, 87)
-        TextBox1.Name = "TextBox1"
-        TextBox1.Size = New Size(100, 23)
-        TextBox1.TabIndex = 91
         ' 
         ' FormSupplierPayement
         ' 

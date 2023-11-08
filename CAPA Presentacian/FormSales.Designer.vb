@@ -590,6 +590,7 @@ Partial Class FormSales
         TextBox2.Name = "TextBox2"
         TextBox2.Size = New Size(100, 20)
         TextBox2.TabIndex = 87
+        TextBox2.Visible = False
         ' 
         ' TextBox1
         ' 
