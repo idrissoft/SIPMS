@@ -23,12 +23,18 @@
 
 
     End Sub
-
+    Private Sub Cleane()
+        txt_Productid.Text = String.Empty
+        txt_productname.Text = String.Empty
+    End Sub
     Private Sub btnSave_Click(sender As Object, e As EventArgs) Handles btnSave.Click
         parametre()
 
         userdal.insert(user)
         ComFunction.Show_DGV(DGV, "Select_User")
+        Cleane()
+        FormLogin.LoginForm_Load()
+
     End Sub
 
     Private Sub FormUser_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -39,9 +45,18 @@
         user.Username = txt_productname.Text
         userdal.Delete(user)
         ComFunction.Show_DGV(DGV, "Select_User")
+        Cleane()
     End Sub
 
     Private Sub btnClose_Click(sender As Object, e As EventArgs) Handles btnClose.Click
         Close()
+    End Sub
+
+    Private Sub DGV1_CellClick(sender As Object, e As DataGridViewCellEventArgs) Handles DGV.CellClick
+        SetValues(e.RowIndex)
+    End Sub
+    Private Sub SetValues(rowIndex As Integer)
+        txt_productname.Text = DGV.Rows(rowIndex).Cells(0).Value
+        txt_Productid.Text = DGV.Rows(rowIndex).Cells(1).Value
     End Sub
 End Class

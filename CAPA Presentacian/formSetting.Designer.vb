@@ -377,6 +377,8 @@ Partial Class formSetting
         ' 
         ' DGV
         ' 
+        DGV.AllowUserToAddRows = False
+        DGV.AllowUserToDeleteRows = False
         DGV.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill
         DGV.BackgroundColor = SystemColors.Control
         DGV.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize

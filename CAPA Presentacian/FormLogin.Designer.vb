@@ -37,6 +37,8 @@ Partial Class FormLogin
         OK = New Button()
         Cancel = New Button()
         ComboUser = New ComboBox()
+        Button1 = New Button()
+        Button2 = New Button()
         CType(LogoPictureBox, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
@@ -45,7 +47,7 @@ Partial Class FormLogin
         LogoPictureBox.Image = CType(resources.GetObject("LogoPictureBox.Image"), Image)
         LogoPictureBox.Location = New Point(0, 0)
         LogoPictureBox.Name = "LogoPictureBox"
-        LogoPictureBox.Size = New Size(165, 193)
+        LogoPictureBox.Size = New Size(165, 195)
         LogoPictureBox.SizeMode = PictureBoxSizeMode.StretchImage
         LogoPictureBox.TabIndex = 0
         LogoPictureBox.TabStop = False
@@ -78,7 +80,7 @@ Partial Class FormLogin
         ' 
         ' OK
         ' 
-        OK.Location = New Point(197, 161)
+        OK.Location = New Point(197, 143)
         OK.Name = "OK"
         OK.Size = New Size(94, 23)
         OK.TabIndex = 4
@@ -87,7 +89,7 @@ Partial Class FormLogin
         ' Cancel
         ' 
         Cancel.DialogResult = DialogResult.Cancel
-        Cancel.Location = New Point(300, 161)
+        Cancel.Location = New Point(300, 143)
         Cancel.Name = "Cancel"
         Cancel.Size = New Size(94, 23)
         Cancel.TabIndex = 5
@@ -101,13 +103,32 @@ Partial Class FormLogin
         ComboUser.Size = New Size(226, 23)
         ComboUser.TabIndex = 6
         ' 
-        ' LoginForm1
+        ' Button1
+        ' 
+        Button1.DialogResult = DialogResult.Cancel
+        Button1.Location = New Point(300, 172)
+        Button1.Name = "Button1"
+        Button1.Size = New Size(94, 23)
+        Button1.TabIndex = 8
+        Button1.Text = "&Sign in"
+        ' 
+        ' Button2
+        ' 
+        Button2.Location = New Point(197, 172)
+        Button2.Name = "Button2"
+        Button2.Size = New Size(94, 23)
+        Button2.TabIndex = 7
+        Button2.Text = "&Override"
+        ' 
+        ' FormLogin
         ' 
         AcceptButton = OK
-        AutoScaleDimensions = New SizeF(7.0F, 15.0F)
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         CancelButton = Cancel
-        ClientSize = New Size(407, 196)
+        ClientSize = New Size(407, 202)
+        Controls.Add(Button1)
+        Controls.Add(Button2)
         Controls.Add(ComboUser)
         Controls.Add(Cancel)
         Controls.Add(OK)
@@ -128,4 +149,6 @@ Partial Class FormLogin
     End Sub
 
     Friend WithEvents ComboUser As ComboBox
+    Friend WithEvents Button1 As Button
+    Friend WithEvents Button2 As Button
 End Class
