@@ -39,8 +39,9 @@ Public Class FormCustomers
             Customer.photo = ms.ToArray()
         End If
         CustomerDAL.Insertar(Me.Customer)
-        txt_CustomerID.Text = ComFunction.CODE_GEN("Customer", "Customer_id") + 1
         MessageBox.Show("saved Successfully", "", MessageBoxButtons.OK, MessageBoxIcon.Information)
+        RestForm()
+        txt_CustomerID.Text = ComFunction.CODE_GEN("Customer", "Customer_id") + 1
 
     End Sub
 
@@ -54,12 +55,13 @@ Public Class FormCustomers
         CustomerDAL.Update(Me.Customer)
         FormCustomers_Load(sender, e)
         MessageBox.Show("Updated Successfully", "", MessageBoxButtons.OK, MessageBoxIcon.Information)
-
+        RestForm()
     End Sub
 
     Private Sub btn_Delete_Click(sender As Object, e As EventArgs) Handles btn_Delete.Click
         Customer.code = Val(txt_CustomerID.Text)
-        CustomerDAL.delete(Me.Customer, "Delete_Customer")
+        CustomerDAL.delete(Me.Customer, "Deletedata")
+        MessageBox.Show("Deleted Successfully", "", MessageBoxButtons.OK, MessageBoxIcon.Information)
         RestForm()
     End Sub
 
