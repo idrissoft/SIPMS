@@ -85,7 +85,7 @@
             Clean()
             FormPurchasProduct_Load(sender, e)
             FormMain.LoadLatestData()
-            MsgBox("saved Successfully", MsgBoxStyle.Information)
+            MessageBox.Show("saved Successfully", "", MessageBoxButtons.OK, MessageBoxIcon.Information)
         End If
     End Sub
 

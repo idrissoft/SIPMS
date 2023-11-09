@@ -34,6 +34,7 @@
         ComFunction.Show_DGV(DGV, "Select_User")
         Cleane()
         FormLogin.LoginForm_Load()
+        MessageBox.Show("saved Successfully", "", MessageBoxButtons.OK, MessageBoxIcon.Information)
 
     End Sub
 
@@ -58,5 +59,9 @@
     Private Sub SetValues(rowIndex As Integer)
         txt_productname.Text = DGV.Rows(rowIndex).Cells(0).Value
         txt_Productid.Text = DGV.Rows(rowIndex).Cells(1).Value
+    End Sub
+
+    Private Sub btnNew_Click(sender As Object, e As EventArgs) Handles btnNew.Click
+        Cleane()
     End Sub
 End Class

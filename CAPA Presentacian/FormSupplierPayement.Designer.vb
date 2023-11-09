@@ -98,6 +98,7 @@ Partial Class FormSupplierPayement
         ' 
         ' txtGrandTotal
         ' 
+        txtGrandTotal.Enabled = False
         txtGrandTotal.Font = New Font("Microsoft Sans Serif", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
         txtGrandTotal.Location = New Point(521, 514)
         txtGrandTotal.Margin = New Padding(4, 3, 4, 3)

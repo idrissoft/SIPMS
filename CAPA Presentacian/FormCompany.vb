@@ -83,8 +83,9 @@ Public Class FormCompany
 
         CompanyDAL.Insertar(COMPANY)
 
-        MsgBox("save don ")
+        MessageBox.Show("saved Successfully", "", MessageBoxButtons.OK, MessageBoxIcon.Information)
 
+        clear()
     End Sub
 
     Private Sub btnShow_Click(sender As Object, e As EventArgs) Handles btnShow.Click

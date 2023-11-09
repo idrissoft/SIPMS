@@ -82,7 +82,7 @@
         InsertIntoSuppAcc()
         FormMain.LoadLatestData()
         clean()
-        MsgBox("Registration successful")
+        MessageBox.Show("saved Successfully", "", MessageBoxButtons.OK, MessageBoxIcon.Information)
     End Sub
 #Disable Warning BC40003 ' Le membre masque un membre surchargeable déclaré dans le type de base
     Private Sub Update()
@@ -138,5 +138,6 @@
             DGV.Rows.Remove(row)
         Next
     End Sub
+
 
 End Class

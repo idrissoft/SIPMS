@@ -39,7 +39,9 @@ Public Class FormCustomers
             Customer.photo = ms.ToArray()
         End If
         CustomerDAL.Insertar(Me.Customer)
-        txt_CustomerID.Text = Comfunction.CODE_GEN("Customer", "Customer_id") + 1
+        txt_CustomerID.Text = ComFunction.CODE_GEN("Customer", "Customer_id") + 1
+        MessageBox.Show("saved Successfully", "", MessageBoxButtons.OK, MessageBoxIcon.Information)
+
     End Sub
 
     Private Sub btn_Update_Click(sender As Object, e As EventArgs) Handles btn_Update.Click
@@ -51,6 +53,8 @@ Public Class FormCustomers
         End If
         CustomerDAL.Update(Me.Customer)
         FormCustomers_Load(sender, e)
+        MessageBox.Show("Updated Successfully", "", MessageBoxButtons.OK, MessageBoxIcon.Information)
+
     End Sub
 
     Private Sub btn_Delete_Click(sender As Object, e As EventArgs) Handles btn_Delete.Click

@@ -53,9 +53,12 @@ Public Class FormCategories
             item.Name_item = txt_itemname.Text
 
             ItemsDAL.Insertar(item)
+
         Catch ex As Exception
         End Try
         txt_Codeitem.Text = ComFunction.CODE_GEN("Items", "Code_item") + 1
+        MessageBox.Show("saved Successfully", "", MessageBoxButtons.OK, MessageBoxIcon.Information)
+
         clean()
     End Sub
 
@@ -74,6 +77,8 @@ Public Class FormCategories
 
         ItemsDAL.Update(Me.item)
         ComFunction.Show_DGV(DGV1, "select_items")
+        MessageBox.Show("Updated Successfully", "", MessageBoxButtons.OK, MessageBoxIcon.Information)
+
     End Sub
 
 
@@ -85,7 +90,9 @@ Public Class FormCategories
         item.Code_item = Val(txt_Codeitem.Text)
         ItemsDAL.Delete(Me.item)
         ComFunction.Show_DGV(DGV1, "select_items")
+        clean()
 
+        MessageBox.Show("deleted Successfully", "", MessageBoxButtons.OK, MessageBoxIcon.Information)
     End Sub
 
     Private Sub btnNew_Click(sender As Object, e As EventArgs) Handles btnNew.Click

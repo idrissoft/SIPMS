@@ -41,9 +41,11 @@ Public Class FormLogin
 
                 FormMain.ShowDialog()
                 Me.Close()
-            Else
-                MsgBox("Username or Password is incorrect.")
+
             End If
+        Else
+            MsgBox("Username or Password is incorrect.", "")
+            TXTPassword.Text = String.Empty
         End If
     End Sub
 
@@ -53,7 +55,7 @@ Public Class FormLogin
         Me.Close()
     End Sub
 
-    Public Sub LoginForm_Load()
+    Public Sub LoginForm_Load() Handles MyBase.Load
         ComFunction.Show_COMBO("Select_User", ComboUser, "Username")
     End Sub
 
@@ -65,4 +67,6 @@ Public Class FormLogin
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         formSetting.ShowDialog()
     End Sub
+
+
 End Class

@@ -58,7 +58,7 @@ Public Class FormSupplier
         Catch ex As Exception
 
         End Try
-
+        MessageBox.Show("saved Successfully", "", MessageBoxButtons.OK, MessageBoxIcon.Information)
         RestForm()
     End Sub
 

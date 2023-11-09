@@ -53,6 +53,8 @@ Public Class formCustomerReceipt
 
     Private Sub btnSave_Click(sender As Object, e As EventArgs) Handles btnSave.Click
         InsertIntoCustAcc()
+        MessageBox.Show("saved Successfully", "", MessageBoxButtons.OK, MessageBoxIcon.Information)
+
     End Sub
     Private Sub InsertIntoCustAcc()
         For Each row As DataGridViewRow In DGV.Rows

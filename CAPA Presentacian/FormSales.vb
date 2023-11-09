@@ -70,13 +70,11 @@
             InsertIntoCustAcc()            REM insert in CustAcc
             InsertIntoInvontoryProduct()   REM insert in StockProduct
 
-
-
             DGV.Rows.Clear()
             ' Clean()
 
             FormMain.LoadLatestData()
-            MsgBox("saved Successfully", MsgBoxStyle.Information)
+            MessageBox.Show("saved Successfully", "", MessageBoxButtons.OK, MessageBoxIcon.Information)
         End If
     End Sub
     Private Sub InsertIntoCustAcc()
