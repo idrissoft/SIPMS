@@ -53,7 +53,7 @@ Public Class FormLogin
         Me.Close()
     End Sub
 
-    Public Sub LoginForm_Load() Handles MyBase.Load
+    Public Sub LoginForm_Load()
         ComFunction.Show_COMBO("Select_User", ComboUser, "Username")
     End Sub
 

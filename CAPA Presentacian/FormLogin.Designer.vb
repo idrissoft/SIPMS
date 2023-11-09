@@ -58,7 +58,7 @@ Partial Class FormLogin
         UsernameLabel.Name = "UsernameLabel"
         UsernameLabel.Size = New Size(220, 23)
         UsernameLabel.TabIndex = 0
-        UsernameLabel.Text = "&Nom d'utilisateur"
+        UsernameLabel.Text = "&User Name"
         UsernameLabel.TextAlign = ContentAlignment.MiddleLeft
         ' 
         ' PasswordLabel
@@ -67,7 +67,7 @@ Partial Class FormLogin
         PasswordLabel.Name = "PasswordLabel"
         PasswordLabel.Size = New Size(220, 23)
         PasswordLabel.TabIndex = 2
-        PasswordLabel.Text = "&Mot de passe"
+        PasswordLabel.Text = "&Password"
         PasswordLabel.TextAlign = ContentAlignment.MiddleLeft
         ' 
         ' TXTPassword
@@ -80,7 +80,7 @@ Partial Class FormLogin
         ' 
         ' OK
         ' 
-        OK.Location = New Point(197, 143)
+        OK.Location = New Point(187, 143)
         OK.Name = "OK"
         OK.Size = New Size(94, 23)
         OK.TabIndex = 4
@@ -89,11 +89,11 @@ Partial Class FormLogin
         ' Cancel
         ' 
         Cancel.DialogResult = DialogResult.Cancel
-        Cancel.Location = New Point(300, 143)
+        Cancel.Location = New Point(290, 143)
         Cancel.Name = "Cancel"
         Cancel.Size = New Size(94, 23)
         Cancel.TabIndex = 5
-        Cancel.Text = "&Annuler"
+        Cancel.Text = "&Close"
         ' 
         ' ComboUser
         ' 
@@ -106,7 +106,7 @@ Partial Class FormLogin
         ' Button1
         ' 
         Button1.DialogResult = DialogResult.Cancel
-        Button1.Location = New Point(300, 172)
+        Button1.Location = New Point(290, 172)
         Button1.Name = "Button1"
         Button1.Size = New Size(94, 23)
         Button1.TabIndex = 8
@@ -114,7 +114,7 @@ Partial Class FormLogin
         ' 
         ' Button2
         ' 
-        Button2.Location = New Point(197, 172)
+        Button2.Location = New Point(187, 172)
         Button2.Name = "Button2"
         Button2.Size = New Size(94, 23)
         Button2.TabIndex = 7
@@ -142,7 +142,6 @@ Partial Class FormLogin
         Name = "FormLogin"
         SizeGripStyle = SizeGripStyle.Hide
         StartPosition = FormStartPosition.CenterParent
-        Text = "Login"
         CType(LogoPictureBox, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
