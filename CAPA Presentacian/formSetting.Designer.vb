@@ -183,6 +183,8 @@ Partial Class formSetting
         ' CheckBox1
         ' 
         CheckBox1.AutoSize = True
+        CheckBox1.Checked = True
+        CheckBox1.CheckState = CheckState.Checked
         CheckBox1.Location = New Point(10, 18)
         CheckBox1.Name = "CheckBox1"
         CheckBox1.Size = New Size(52, 19)
@@ -203,6 +205,8 @@ Partial Class formSetting
         ' CheckBox4
         ' 
         CheckBox4.AutoSize = True
+        CheckBox4.Checked = True
+        CheckBox4.CheckState = CheckState.Checked
         CheckBox4.Location = New Point(86, 17)
         CheckBox4.Name = "CheckBox4"
         CheckBox4.Size = New Size(55, 19)
@@ -213,6 +217,8 @@ Partial Class formSetting
         ' CheckBox5
         ' 
         CheckBox5.AutoSize = True
+        CheckBox5.Checked = True
+        CheckBox5.CheckState = CheckState.Checked
         CheckBox5.Location = New Point(86, 49)
         CheckBox5.Name = "CheckBox5"
         CheckBox5.Size = New Size(74, 19)
@@ -223,6 +229,8 @@ Partial Class formSetting
         ' CheckBox8
         ' 
         CheckBox8.AutoSize = True
+        CheckBox8.Checked = True
+        CheckBox8.CheckState = CheckState.Checked
         CheckBox8.Location = New Point(166, 49)
         CheckBox8.Name = "CheckBox8"
         CheckBox8.Size = New Size(83, 19)
@@ -233,6 +241,8 @@ Partial Class formSetting
         ' CheckBox7
         ' 
         CheckBox7.AutoSize = True
+        CheckBox7.Checked = True
+        CheckBox7.CheckState = CheckState.Checked
         CheckBox7.Location = New Point(166, 18)
         CheckBox7.Name = "CheckBox7"
         CheckBox7.Size = New Size(68, 19)
@@ -243,6 +253,8 @@ Partial Class formSetting
         ' CheckBox11
         ' 
         CheckBox11.AutoSize = True
+        CheckBox11.Checked = True
+        CheckBox11.CheckState = CheckState.Checked
         CheckBox11.Location = New Point(255, 74)
         CheckBox11.Name = "CheckBox11"
         CheckBox11.Size = New Size(79, 19)
@@ -253,6 +265,8 @@ Partial Class formSetting
         ' CheckBox10
         ' 
         CheckBox10.AutoSize = True
+        CheckBox10.Checked = True
+        CheckBox10.CheckState = CheckState.Checked
         CheckBox10.Location = New Point(255, 48)
         CheckBox10.Name = "CheckBox10"
         CheckBox10.Size = New Size(125, 19)
@@ -263,6 +277,8 @@ Partial Class formSetting
         ' CheckBox9
         ' 
         CheckBox9.AutoSize = True
+        CheckBox9.Checked = True
+        CheckBox9.CheckState = CheckState.Checked
         CheckBox9.Location = New Point(255, 17)
         CheckBox9.Name = "CheckBox9"
         CheckBox9.Size = New Size(87, 19)
@@ -273,6 +289,8 @@ Partial Class formSetting
         ' CheckBox3
         ' 
         CheckBox3.AutoSize = True
+        CheckBox3.Checked = True
+        CheckBox3.CheckState = CheckState.Checked
         CheckBox3.Location = New Point(10, 74)
         CheckBox3.Name = "CheckBox3"
         CheckBox3.Size = New Size(78, 19)
@@ -283,6 +301,8 @@ Partial Class formSetting
         ' CheckBox6
         ' 
         CheckBox6.AutoSize = True
+        CheckBox6.Checked = True
+        CheckBox6.CheckState = CheckState.Checked
         CheckBox6.Location = New Point(86, 74)
         CheckBox6.Name = "CheckBox6"
         CheckBox6.Size = New Size(120, 19)
