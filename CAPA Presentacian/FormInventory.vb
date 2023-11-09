@@ -37,6 +37,8 @@
         stock.CodeStock = Val(txtCodestock.Text)
         txtCodestock.Text = Comfunction.CODE_GEN("Stock", "Code_fct") + 1
         btnShowSupp.Focus()
+        btnDelete.Enabled = False
+
     End Sub
 
     Private Sub Clean()
@@ -46,7 +48,7 @@
         ComFunction.ClearTextboxes(Panel4)
         txtRemarks.Text = ""
     End Sub
-
+    Dim curent As Integer = 0
 
     Private Sub btnAdd_Click(sender As Object, e As EventArgs) Handles btnAdd.Click
 
@@ -67,6 +69,11 @@
             Updatrow(targetRow)
         Else
             addRow()
+        End If
+
+        curent += 1
+        If curent > 0 Then
+            btnDelete.Enabled = True
         End If
     End Sub
 
@@ -269,7 +276,10 @@
     End Sub
 
     Private Sub btnRemove_Click(sender As Object, e As EventArgs) Handles btnRemove.Click
-
+        If DGV.Rows.Count = 0 Then
+            MsgBox("the Table are Empty ", MsgBoxStyle.Exclamation)
+            Exit Sub
+        End If
         For Each row As DataGridViewRow In DGV.SelectedRows
             DGV.Rows.Remove(row)
         Next
