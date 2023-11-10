@@ -66,7 +66,7 @@ Partial Class About
         TableLayoutPanel.RowStyles.Add(New RowStyle(SizeType.Percent, 10F))
         TableLayoutPanel.RowStyles.Add(New RowStyle(SizeType.Percent, 50F))
         TableLayoutPanel.RowStyles.Add(New RowStyle(SizeType.Percent, 10F))
-        TableLayoutPanel.Size = New Size(633, 355)
+        TableLayoutPanel.Size = New Size(531, 217)
         TableLayoutPanel.TabIndex = 0
         ' 
         ' LogoPictureBox
@@ -77,7 +77,7 @@ Partial Class About
         LogoPictureBox.Margin = New Padding(4, 3, 4, 3)
         LogoPictureBox.Name = "LogoPictureBox"
         TableLayoutPanel.SetRowSpan(LogoPictureBox, 6)
-        LogoPictureBox.Size = New Size(200, 349)
+        LogoPictureBox.Size = New Size(167, 211)
         LogoPictureBox.SizeMode = PictureBoxSizeMode.StretchImage
         LogoPictureBox.TabIndex = 0
         LogoPictureBox.TabStop = False
@@ -85,11 +85,11 @@ Partial Class About
         ' LabelProductName
         ' 
         LabelProductName.Dock = DockStyle.Fill
-        LabelProductName.Location = New Point(215, 0)
+        LabelProductName.Location = New Point(182, 0)
         LabelProductName.Margin = New Padding(7, 0, 4, 0)
         LabelProductName.MaximumSize = New Size(0, 20)
         LabelProductName.Name = "LabelProductName"
-        LabelProductName.Size = New Size(414, 20)
+        LabelProductName.Size = New Size(345, 20)
         LabelProductName.TabIndex = 0
         LabelProductName.Text = "SIPMS"
         LabelProductName.TextAlign = ContentAlignment.MiddleLeft
@@ -97,11 +97,11 @@ Partial Class About
         ' LabelVersion
         ' 
         LabelVersion.Dock = DockStyle.Fill
-        LabelVersion.Location = New Point(215, 35)
+        LabelVersion.Location = New Point(182, 21)
         LabelVersion.Margin = New Padding(7, 0, 4, 0)
         LabelVersion.MaximumSize = New Size(0, 20)
         LabelVersion.Name = "LabelVersion"
-        LabelVersion.Size = New Size(414, 20)
+        LabelVersion.Size = New Size(345, 20)
         LabelVersion.TabIndex = 0
         LabelVersion.Text = "Version 1.0.0"
         LabelVersion.TextAlign = ContentAlignment.MiddleLeft
@@ -109,11 +109,11 @@ Partial Class About
         ' LabelCopyright
         ' 
         LabelCopyright.Dock = DockStyle.Fill
-        LabelCopyright.Location = New Point(215, 70)
+        LabelCopyright.Location = New Point(182, 42)
         LabelCopyright.Margin = New Padding(7, 0, 4, 0)
         LabelCopyright.MaximumSize = New Size(0, 20)
         LabelCopyright.Name = "LabelCopyright"
-        LabelCopyright.Size = New Size(414, 20)
+        LabelCopyright.Size = New Size(345, 20)
         LabelCopyright.TabIndex = 0
         LabelCopyright.Text = "Copyright 2023"
         LabelCopyright.TextAlign = ContentAlignment.MiddleLeft
@@ -121,11 +121,11 @@ Partial Class About
         ' LabelCompanyName
         ' 
         LabelCompanyName.Dock = DockStyle.Fill
-        LabelCompanyName.Location = New Point(215, 105)
+        LabelCompanyName.Location = New Point(182, 63)
         LabelCompanyName.Margin = New Padding(7, 0, 4, 0)
         LabelCompanyName.MaximumSize = New Size(0, 20)
         LabelCompanyName.Name = "LabelCompanyName"
-        LabelCompanyName.Size = New Size(414, 20)
+        LabelCompanyName.Size = New Size(345, 20)
         LabelCompanyName.TabIndex = 0
         LabelCompanyName.Text = "Nom de la société : SLIMANE DANY +212682689610"
         LabelCompanyName.TextAlign = ContentAlignment.MiddleLeft
@@ -133,13 +133,13 @@ Partial Class About
         ' TextBoxDescription
         ' 
         TextBoxDescription.Dock = DockStyle.Fill
-        TextBoxDescription.Location = New Point(215, 143)
+        TextBoxDescription.Location = New Point(182, 87)
         TextBoxDescription.Margin = New Padding(7, 3, 4, 3)
         TextBoxDescription.Multiline = True
         TextBoxDescription.Name = "TextBoxDescription"
         TextBoxDescription.ReadOnly = True
         TextBoxDescription.ScrollBars = ScrollBars.Both
-        TextBoxDescription.Size = New Size(414, 171)
+        TextBoxDescription.Size = New Size(345, 102)
         TextBoxDescription.TabIndex = 0
         TextBoxDescription.TabStop = False
         TextBoxDescription.Text = resources.GetString("TextBoxDescription.Text")
@@ -148,10 +148,10 @@ Partial Class About
         ' 
         OKButton.Anchor = AnchorStyles.Bottom Or AnchorStyles.Right
         OKButton.DialogResult = DialogResult.Cancel
-        OKButton.Location = New Point(541, 325)
+        OKButton.Location = New Point(439, 195)
         OKButton.Margin = New Padding(4, 3, 4, 3)
         OKButton.Name = "OKButton"
-        OKButton.Size = New Size(88, 27)
+        OKButton.Size = New Size(88, 19)
         OKButton.TabIndex = 0
         OKButton.Text = "&OK"
         ' 
@@ -160,7 +160,7 @@ Partial Class About
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         CancelButton = OKButton
-        ClientSize = New Size(653, 375)
+        ClientSize = New Size(551, 237)
         Controls.Add(TableLayoutPanel)
         FormBorderStyle = FormBorderStyle.FixedDialog
         Margin = New Padding(4, 3, 4, 3)
