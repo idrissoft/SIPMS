@@ -52,14 +52,13 @@ Class ComFunction
 
     '                              Appearance Data in Combobox 
     Public Shared Sub Show_COMBO(Proc As String, Combo As ComboBox, item As String)
-        Conexion.conecta()
         Combo.Items.Clear()
+        Conexion.conecta()
         Using cmd As New SqlCommand(Proc, Conexion.con)
             Dim dr As SqlDataReader = cmd.ExecuteReader(CommandBehavior.CloseConnection)
             While dr.Read
                 Combo.Items.Add(dr(item).ToString())
             End While
-
         End Using
         Conexion.desconectar()
 
