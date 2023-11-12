@@ -90,19 +90,19 @@ Partial Class formCustomerReceipt
         Panel1.Controls.Add(Panel2)
         Panel1.Dock = DockStyle.Fill
         Panel1.Location = New Point(0, 0)
-        Panel1.Margin = New Padding(4, 3, 4, 3)
+        Panel1.Margin = New Padding(5, 4, 5, 4)
         Panel1.Name = "Panel1"
-        Panel1.Size = New Size(698, 551)
+        Panel1.Size = New Size(798, 735)
         Panel1.TabIndex = 2
         ' 
         ' txtGrandTotal
         ' 
         txtGrandTotal.Font = New Font("Microsoft Sans Serif", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
-        txtGrandTotal.Location = New Point(529, 504)
-        txtGrandTotal.Margin = New Padding(4, 3, 4, 3)
+        txtGrandTotal.Location = New Point(605, 672)
+        txtGrandTotal.Margin = New Padding(5, 4, 5, 4)
         txtGrandTotal.Name = "txtGrandTotal"
         txtGrandTotal.ReadOnly = True
-        txtGrandTotal.Size = New Size(128, 29)
+        txtGrandTotal.Size = New Size(146, 34)
         txtGrandTotal.TabIndex = 91
         txtGrandTotal.Text = "00"
         txtGrandTotal.TextAlign = HorizontalAlignment.Center
@@ -111,10 +111,10 @@ Partial Class formCustomerReceipt
         ' btnClose
         ' 
         btnClose.FlatStyle = FlatStyle.Popup
-        btnClose.Location = New Point(392, 500)
-        btnClose.Margin = New Padding(4, 3, 4, 3)
+        btnClose.Location = New Point(448, 667)
+        btnClose.Margin = New Padding(5, 4, 5, 4)
         btnClose.Name = "btnClose"
-        btnClose.Size = New Size(105, 43)
+        btnClose.Size = New Size(120, 57)
         btnClose.TabIndex = 7
         btnClose.Text = "&Close"
         btnClose.UseVisualStyleBackColor = True
@@ -122,10 +122,10 @@ Partial Class formCustomerReceipt
         ' btnSave
         ' 
         btnSave.FlatStyle = FlatStyle.Popup
-        btnSave.Location = New Point(208, 500)
-        btnSave.Margin = New Padding(4, 3, 4, 3)
+        btnSave.Location = New Point(238, 667)
+        btnSave.Margin = New Padding(5, 4, 5, 4)
         btnSave.Name = "btnSave"
-        btnSave.Size = New Size(105, 43)
+        btnSave.Size = New Size(120, 57)
         btnSave.TabIndex = 6
         btnSave.Text = "&Save"
         btnSave.UseVisualStyleBackColor = True
@@ -140,33 +140,33 @@ Partial Class formCustomerReceipt
         GroupBox1.Controls.Add(Label3)
         GroupBox1.Controls.Add(Label2)
         GroupBox1.Controls.Add(txtBalance)
-        GroupBox1.Location = New Point(10, 91)
-        GroupBox1.Margin = New Padding(4, 3, 4, 3)
+        GroupBox1.Location = New Point(11, 121)
+        GroupBox1.Margin = New Padding(5, 4, 5, 4)
         GroupBox1.Name = "GroupBox1"
-        GroupBox1.Padding = New Padding(4, 3, 4, 3)
-        GroupBox1.Size = New Size(671, 110)
+        GroupBox1.Padding = New Padding(5, 4, 5, 4)
+        GroupBox1.Size = New Size(767, 147)
         GroupBox1.TabIndex = 5
         GroupBox1.TabStop = False
         GroupBox1.Text = "Detail Customet "
         ' 
         ' txtCodCustomer
         ' 
-        txtCodCustomer.Location = New Point(251, 25)
-        txtCodCustomer.Margin = New Padding(4, 3, 4, 3)
+        txtCodCustomer.Location = New Point(287, 33)
+        txtCodCustomer.Margin = New Padding(5, 4, 5, 4)
         txtCodCustomer.Name = "txtCodCustomer"
         txtCodCustomer.ReadOnly = True
-        txtCodCustomer.Size = New Size(61, 23)
+        txtCodCustomer.Size = New Size(69, 27)
         txtCodCustomer.TabIndex = 90
         txtCodCustomer.TextAlign = HorizontalAlignment.Center
         txtCodCustomer.Visible = False
         ' 
         ' txtNameCustomer
         ' 
-        txtNameCustomer.Location = New Point(103, 66)
-        txtNameCustomer.Margin = New Padding(4, 3, 4, 3)
+        txtNameCustomer.Location = New Point(118, 88)
+        txtNameCustomer.Margin = New Padding(5, 4, 5, 4)
         txtNameCustomer.Name = "txtNameCustomer"
         txtNameCustomer.ReadOnly = True
-        txtNameCustomer.Size = New Size(140, 23)
+        txtNameCustomer.Size = New Size(159, 27)
         txtNameCustomer.TabIndex = 89
         txtNameCustomer.TextAlign = HorizontalAlignment.Center
         ' 
@@ -174,10 +174,10 @@ Partial Class formCustomerReceipt
         ' 
         btnShow.BackgroundImageLayout = ImageLayout.None
         btnShow.FlatStyle = FlatStyle.System
-        btnShow.Location = New Point(269, 50)
-        btnShow.Margin = New Padding(4, 5, 4, 5)
+        btnShow.Location = New Point(307, 67)
+        btnShow.Margin = New Padding(5, 7, 5, 7)
         btnShow.Name = "btnShow"
-        btnShow.Size = New Size(34, 24)
+        btnShow.Size = New Size(39, 32)
         btnShow.TabIndex = 88
         btnShow.Text = " ..."
         btnShow.UseVisualStyleBackColor = True
@@ -186,51 +186,51 @@ Partial Class formCustomerReceipt
         ' 
         Label31.AutoSize = True
         Label31.Font = New Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Label31.Location = New Point(429, 27)
-        Label31.Margin = New Padding(4, 0, 4, 0)
+        Label31.Location = New Point(490, 36)
+        Label31.Margin = New Padding(5, 0, 5, 0)
         Label31.Name = "Label31"
-        Label31.Size = New Size(153, 15)
+        Label31.Size = New Size(186, 18)
         Label31.TabIndex = 87
         Label31.Text = "Current balance Customer "
         ' 
         ' txtCodeCustomers
         ' 
-        txtCodeCustomers.Location = New Point(103, 27)
-        txtCodeCustomers.Margin = New Padding(4, 3, 4, 3)
+        txtCodeCustomers.Location = New Point(118, 36)
+        txtCodeCustomers.Margin = New Padding(5, 4, 5, 4)
         txtCodeCustomers.Name = "txtCodeCustomers"
         txtCodeCustomers.ReadOnly = True
-        txtCodeCustomers.Size = New Size(140, 23)
+        txtCodeCustomers.Size = New Size(159, 27)
         txtCodeCustomers.TabIndex = 3
         txtCodeCustomers.TextAlign = HorizontalAlignment.Center
         ' 
         ' Label3
         ' 
         Label3.AutoSize = True
-        Label3.Location = New Point(8, 30)
-        Label3.Margin = New Padding(4, 0, 4, 0)
+        Label3.Location = New Point(9, 40)
+        Label3.Margin = New Padding(5, 0, 5, 0)
         Label3.Name = "Label3"
-        Label3.Size = New Size(96, 15)
+        Label3.Size = New Size(118, 20)
         Label3.TabIndex = 2
         Label3.Text = "Code Customer :"
         ' 
         ' Label2
         ' 
         Label2.AutoSize = True
-        Label2.Location = New Point(8, 69)
-        Label2.Margin = New Padding(4, 0, 4, 0)
+        Label2.Location = New Point(9, 92)
+        Label2.Margin = New Padding(5, 0, 5, 0)
         Label2.Name = "Label2"
-        Label2.Size = New Size(100, 15)
+        Label2.Size = New Size(123, 20)
         Label2.TabIndex = 1
         Label2.Text = "Name Customer :"
         ' 
         ' txtBalance
         ' 
         txtBalance.Font = New Font("Microsoft Sans Serif", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
-        txtBalance.Location = New Point(404, 53)
-        txtBalance.Margin = New Padding(4, 3, 4, 3)
+        txtBalance.Location = New Point(462, 71)
+        txtBalance.Margin = New Padding(5, 4, 5, 4)
         txtBalance.Name = "txtBalance"
         txtBalance.ReadOnly = True
-        txtBalance.Size = New Size(184, 29)
+        txtBalance.Size = New Size(210, 34)
         txtBalance.TabIndex = 0
         txtBalance.Text = "00"
         txtBalance.TextAlign = HorizontalAlignment.Center
@@ -249,11 +249,11 @@ Partial Class formCustomerReceipt
         GroupBox2.Controls.Add(cmbPaymentMode)
         GroupBox2.Controls.Add(Label12)
         GroupBox2.Controls.Add(Label13)
-        GroupBox2.Location = New Point(10, 208)
-        GroupBox2.Margin = New Padding(4, 3, 4, 3)
+        GroupBox2.Location = New Point(11, 277)
+        GroupBox2.Margin = New Padding(5, 4, 5, 4)
         GroupBox2.Name = "GroupBox2"
-        GroupBox2.Padding = New Padding(4, 3, 4, 3)
-        GroupBox2.Size = New Size(671, 286)
+        GroupBox2.Padding = New Padding(5, 4, 5, 4)
+        GroupBox2.Size = New Size(767, 381)
         GroupBox2.TabIndex = 4
         GroupBox2.TabStop = False
         GroupBox2.Text = "Payment information"
@@ -261,10 +261,10 @@ Partial Class formCustomerReceipt
         ' btnNew
         ' 
         btnNew.FlatStyle = FlatStyle.Popup
-        btnNew.Location = New Point(519, 143)
-        btnNew.Margin = New Padding(4, 3, 4, 3)
+        btnNew.Location = New Point(593, 191)
+        btnNew.Margin = New Padding(5, 4, 5, 4)
         btnNew.Name = "btnNew"
-        btnNew.Size = New Size(96, 24)
+        btnNew.Size = New Size(110, 32)
         btnNew.TabIndex = 90
         btnNew.Text = "&New"
         btnNew.UseVisualStyleBackColor = True
@@ -273,10 +273,10 @@ Partial Class formCustomerReceipt
         ' 
         btnUpdate.Enabled = False
         btnUpdate.FlatStyle = FlatStyle.Popup
-        btnUpdate.Location = New Point(518, 232)
-        btnUpdate.Margin = New Padding(4, 3, 4, 3)
+        btnUpdate.Location = New Point(592, 309)
+        btnUpdate.Margin = New Padding(5, 4, 5, 4)
         btnUpdate.Name = "btnUpdate"
-        btnUpdate.Size = New Size(96, 24)
+        btnUpdate.Size = New Size(110, 32)
         btnUpdate.TabIndex = 89
         btnUpdate.Text = "&Update"
         btnUpdate.UseVisualStyleBackColor = True
@@ -284,10 +284,10 @@ Partial Class formCustomerReceipt
         ' btnRemove
         ' 
         btnRemove.FlatStyle = FlatStyle.Popup
-        btnRemove.Location = New Point(518, 202)
-        btnRemove.Margin = New Padding(4, 3, 4, 3)
+        btnRemove.Location = New Point(592, 269)
+        btnRemove.Margin = New Padding(5, 4, 5, 4)
         btnRemove.Name = "btnRemove"
-        btnRemove.Size = New Size(96, 24)
+        btnRemove.Size = New Size(110, 32)
         btnRemove.TabIndex = 88
         btnRemove.Text = "&Supp"
         btnRemove.UseVisualStyleBackColor = True
@@ -295,10 +295,10 @@ Partial Class formCustomerReceipt
         ' btnAdd
         ' 
         btnAdd.FlatStyle = FlatStyle.Popup
-        btnAdd.Location = New Point(518, 173)
-        btnAdd.Margin = New Padding(4, 3, 4, 3)
+        btnAdd.Location = New Point(592, 231)
+        btnAdd.Margin = New Padding(5, 4, 5, 4)
         btnAdd.Name = "btnAdd"
-        btnAdd.Size = New Size(96, 24)
+        btnAdd.Size = New Size(110, 32)
         btnAdd.TabIndex = 87
         btnAdd.Text = "&Add"
         btnAdd.UseVisualStyleBackColor = True
@@ -334,8 +334,8 @@ Partial Class formCustomerReceipt
         DGV.DefaultCellStyle = DataGridViewCellStyle5
         DGV.EnableHeadersVisualStyles = False
         DGV.GridColor = Color.White
-        DGV.Location = New Point(7, 134)
-        DGV.Margin = New Padding(4, 3, 4, 3)
+        DGV.Location = New Point(8, 179)
+        DGV.Margin = New Padding(5, 4, 5, 4)
         DGV.Name = "DGV"
         DGV.ReadOnly = True
         DGV.RightToLeft = RightToLeft.No
@@ -360,24 +360,27 @@ Partial Class formCustomerReceipt
         DGV.RowTemplate.Resizable = DataGridViewTriState.False
         DGV.ScrollBars = ScrollBars.Vertical
         DGV.SelectionMode = DataGridViewSelectionMode.FullRowSelect
-        DGV.Size = New Size(504, 127)
+        DGV.Size = New Size(576, 169)
         DGV.TabIndex = 86
         ' 
         ' Column1
         ' 
         Column1.HeaderText = "Code Customer"
+        Column1.MinimumWidth = 6
         Column1.Name = "Column1"
         Column1.ReadOnly = True
         ' 
         ' Column2
         ' 
         Column2.HeaderText = "Name Customer"
+        Column2.MinimumWidth = 6
         Column2.Name = "Column2"
         Column2.ReadOnly = True
         ' 
         ' Column8
         ' 
         Column8.HeaderText = "Payement Methode"
+        Column8.MinimumWidth = 6
         Column8.Name = "Column8"
         Column8.ReadOnly = True
         ' 
@@ -386,6 +389,7 @@ Partial Class formCustomerReceipt
         DataGridViewCellStyle3.Format = "dd/MM/yyyy"
         Column16.DefaultCellStyle = DataGridViewCellStyle3
         Column16.HeaderText = "Date Payement"
+        Column16.MinimumWidth = 6
         Column16.Name = "Column16"
         Column16.ReadOnly = True
         ' 
@@ -394,18 +398,21 @@ Partial Class formCustomerReceipt
         DataGridViewCellStyle4.Alignment = DataGridViewContentAlignment.TopRight
         Column15.DefaultCellStyle = DataGridViewCellStyle4
         Column15.HeaderText = "The amount Paid"
+        Column15.MinimumWidth = 6
         Column15.Name = "Column15"
         Column15.ReadOnly = True
         ' 
         ' Column3
         ' 
         Column3.HeaderText = "Balance"
+        Column3.MinimumWidth = 6
         Column3.Name = "Column3"
         Column3.ReadOnly = True
         ' 
         ' Column4
         ' 
         Column4.HeaderText = "Code Cust"
+        Column4.MinimumWidth = 6
         Column4.Name = "Column4"
         Column4.ReadOnly = True
         Column4.Visible = False
@@ -414,20 +421,20 @@ Partial Class formCustomerReceipt
         ' 
         dtpPaymentDate.CustomFormat = "dd/MM/yyyy"
         dtpPaymentDate.Format = DateTimePickerFormat.Custom
-        dtpPaymentDate.Location = New Point(119, 97)
-        dtpPaymentDate.Margin = New Padding(2)
+        dtpPaymentDate.Location = New Point(136, 129)
+        dtpPaymentDate.Margin = New Padding(2, 3, 2, 3)
         dtpPaymentDate.Name = "dtpPaymentDate"
         dtpPaymentDate.RightToLeft = RightToLeft.Yes
-        dtpPaymentDate.Size = New Size(129, 23)
+        dtpPaymentDate.Size = New Size(147, 27)
         dtpPaymentDate.TabIndex = 2
         ' 
         ' Label7
         ' 
         Label7.AutoSize = True
-        Label7.Location = New Point(8, 98)
-        Label7.Margin = New Padding(4, 0, 4, 0)
+        Label7.Location = New Point(9, 131)
+        Label7.Margin = New Padding(5, 0, 5, 0)
         Label7.Name = "Label7"
-        Label7.Size = New Size(87, 15)
+        Label7.Size = New Size(108, 20)
         Label7.TabIndex = 25
         Label7.Text = "Payment Date :"
         ' 
@@ -439,21 +446,21 @@ Partial Class formCustomerReceipt
         Panel4.Controls.Add(Label35)
         Panel4.Controls.Add(txtnewBalance)
         Panel4.Controls.Add(txtTotalPayment)
-        Panel4.Location = New Point(283, 23)
-        Panel4.Margin = New Padding(4, 3, 4, 3)
+        Panel4.Location = New Point(323, 31)
+        Panel4.Margin = New Padding(5, 4, 5, 4)
         Panel4.Name = "Panel4"
         Panel4.RightToLeft = RightToLeft.Yes
-        Panel4.Size = New Size(356, 100)
+        Panel4.Size = New Size(407, 133)
         Panel4.TabIndex = 5
         ' 
         ' Label34
         ' 
         Label34.AutoSize = True
         Label34.Font = New Font("Microsoft Sans Serif", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label34.Location = New Point(190, 69)
-        Label34.Margin = New Padding(4, 0, 4, 0)
+        Label34.Location = New Point(217, 92)
+        Label34.Margin = New Padding(5, 0, 5, 0)
         Label34.Name = "Label34"
-        Label34.Size = New Size(140, 13)
+        Label34.Size = New Size(184, 17)
         Label34.TabIndex = 86
         Label34.Text = "The new Customer balance:"
         ' 
@@ -461,21 +468,21 @@ Partial Class formCustomerReceipt
         ' 
         Label35.AutoSize = True
         Label35.Font = New Font("Microsoft Sans Serif", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label35.Location = New Point(190, 20)
-        Label35.Margin = New Padding(4, 0, 4, 0)
+        Label35.Location = New Point(217, 27)
+        Label35.Margin = New Padding(5, 0, 5, 0)
         Label35.Name = "Label35"
-        Label35.Size = New Size(70, 13)
+        Label35.Size = New Size(92, 17)
         Label35.TabIndex = 85
         Label35.Text = "Total Amount"
         ' 
         ' txtnewBalance
         ' 
         txtnewBalance.Font = New Font("Microsoft Sans Serif", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
-        txtnewBalance.Location = New Point(27, 66)
-        txtnewBalance.Margin = New Padding(4, 3, 4, 3)
+        txtnewBalance.Location = New Point(31, 88)
+        txtnewBalance.Margin = New Padding(5, 4, 5, 4)
         txtnewBalance.Name = "txtnewBalance"
         txtnewBalance.ReadOnly = True
-        txtnewBalance.Size = New Size(156, 20)
+        txtnewBalance.Size = New Size(178, 23)
         txtnewBalance.TabIndex = 2
         txtnewBalance.Text = "00"
         txtnewBalance.TextAlign = HorizontalAlignment.Center
@@ -483,21 +490,21 @@ Partial Class formCustomerReceipt
         ' txtTotalPayment
         ' 
         txtTotalPayment.Font = New Font("Microsoft Sans Serif", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
-        txtTotalPayment.Location = New Point(27, 16)
-        txtTotalPayment.Margin = New Padding(4, 3, 4, 3)
+        txtTotalPayment.Location = New Point(31, 21)
+        txtTotalPayment.Margin = New Padding(5, 4, 5, 4)
         txtTotalPayment.Name = "txtTotalPayment"
         txtTotalPayment.ReadOnly = True
-        txtTotalPayment.Size = New Size(156, 20)
+        txtTotalPayment.Size = New Size(178, 23)
         txtTotalPayment.TabIndex = 1
         txtTotalPayment.TextAlign = HorizontalAlignment.Center
         ' 
         ' txtPayment
         ' 
         txtPayment.Font = New Font("Microsoft Sans Serif", 8.25F, FontStyle.Regular, GraphicsUnit.Point)
-        txtPayment.Location = New Point(119, 72)
-        txtPayment.Margin = New Padding(4, 3, 4, 3)
+        txtPayment.Location = New Point(136, 96)
+        txtPayment.Margin = New Padding(5, 4, 5, 4)
         txtPayment.Name = "txtPayment"
-        txtPayment.Size = New Size(129, 20)
+        txtPayment.Size = New Size(147, 23)
         txtPayment.TabIndex = 1
         txtPayment.Text = "0"
         txtPayment.TextAlign = HorizontalAlignment.Center
@@ -507,29 +514,29 @@ Partial Class formCustomerReceipt
         cmbPaymentMode.DropDownStyle = ComboBoxStyle.DropDownList
         cmbPaymentMode.FormattingEnabled = True
         cmbPaymentMode.Items.AddRange(New Object() {"Cash", "Check", "Direct Deposit", "Credit Card"})
-        cmbPaymentMode.Location = New Point(121, 43)
-        cmbPaymentMode.Margin = New Padding(4, 3, 4, 3)
+        cmbPaymentMode.Location = New Point(138, 57)
+        cmbPaymentMode.Margin = New Padding(5, 4, 5, 4)
         cmbPaymentMode.Name = "cmbPaymentMode"
-        cmbPaymentMode.Size = New Size(129, 23)
+        cmbPaymentMode.Size = New Size(147, 28)
         cmbPaymentMode.TabIndex = 0
         ' 
         ' Label12
         ' 
         Label12.AutoSize = True
-        Label12.Location = New Point(8, 46)
-        Label12.Margin = New Padding(4, 0, 4, 0)
+        Label12.Location = New Point(9, 61)
+        Label12.Margin = New Padding(5, 0, 5, 0)
         Label12.Name = "Label12"
-        Label12.Size = New Size(105, 15)
+        Label12.Size = New Size(128, 20)
         Label12.TabIndex = 11
         Label12.Text = "Payment method :"
         ' 
         ' Label13
         ' 
         Label13.AutoSize = True
-        Label13.Location = New Point(8, 74)
-        Label13.Margin = New Padding(4, 0, 4, 0)
+        Label13.Location = New Point(9, 99)
+        Label13.Margin = New Padding(5, 0, 5, 0)
         Label13.Name = "Label13"
-        Label13.Size = New Size(103, 15)
+        Label13.Size = New Size(129, 20)
         Label13.TabIndex = 22
         Label13.Text = "The amount paid :"
         ' 
@@ -540,9 +547,9 @@ Partial Class formCustomerReceipt
         Panel2.Controls.Add(Label1)
         Panel2.Dock = DockStyle.Top
         Panel2.Location = New Point(0, 0)
-        Panel2.Margin = New Padding(4, 3, 4, 3)
+        Panel2.Margin = New Padding(5, 4, 5, 4)
         Panel2.Name = "Panel2"
-        Panel2.Size = New Size(696, 72)
+        Panel2.Size = New Size(796, 96)
         Panel2.TabIndex = 0
         ' 
         ' Label1
@@ -551,31 +558,32 @@ Partial Class formCustomerReceipt
         Label1.BackColor = Color.Transparent
         Label1.Font = New Font("Microsoft Sans Serif", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
         Label1.ForeColor = Color.White
-        Label1.Location = New Point(251, 18)
-        Label1.Margin = New Padding(4, 0, 4, 0)
+        Label1.Location = New Point(287, 24)
+        Label1.Margin = New Padding(5, 0, 5, 0)
         Label1.Name = "Label1"
-        Label1.Size = New Size(176, 24)
+        Label1.Size = New Size(222, 29)
         Label1.TabIndex = 0
         Label1.Text = "Customer Receipt"
         ' 
         ' Panel6
         ' 
         Panel6.BackColor = Color.Yellow
-        Panel6.Location = New Point(1, 69)
+        Panel6.Location = New Point(1, 92)
+        Panel6.Margin = New Padding(3, 4, 3, 4)
         Panel6.Name = "Panel6"
-        Panel6.Size = New Size(697, 4)
+        Panel6.Size = New Size(797, 5)
         Panel6.TabIndex = 22
         ' 
         ' formCustomerReceipt
         ' 
-        AutoScaleDimensions = New SizeF(7F, 15F)
+        AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.DarkSlateGray
-        ClientSize = New Size(698, 551)
+        ClientSize = New Size(798, 735)
         Controls.Add(Panel6)
         Controls.Add(Panel1)
         FormBorderStyle = FormBorderStyle.FixedSingle
-        Margin = New Padding(4, 3, 4, 3)
+        Margin = New Padding(5, 4, 5, 4)
         MaximizeBox = False
         MinimizeBox = False
         Name = "formCustomerReceipt"

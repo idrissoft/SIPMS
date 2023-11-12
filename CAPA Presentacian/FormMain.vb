@@ -8,6 +8,7 @@
         ComFunction.Show_DGV(DGV, "GetCustomerSalesSummary")
         ComFunction.Show_DGV(DGV2, "GetSupplierSummary")
         ComFunction.Show_DGV(DGV3, "GetProductStockSummary")
+        CenterToParent()
     End Sub
     Private Sub FormMain_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         LoadLatestData()

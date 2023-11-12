@@ -38,7 +38,7 @@
         txtCodestock.Text = Comfunction.CODE_GEN("Stock", "Code_fct") + 1
         btnShowSupp.Focus()
         btnDelete.Enabled = False
-
+        CenterToParent()
     End Sub
 
     Private Sub Clean()

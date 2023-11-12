@@ -75,7 +75,7 @@ Public Class FormCustomers
 
     Private Sub FormCustomers_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         txt_CustomerID.Text = Comfunction.CODE_GEN("Customer", "Customer_id") + 1
-
+        CenterToParent()
     End Sub
 
 

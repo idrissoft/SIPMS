@@ -24,7 +24,7 @@ Public Class FormCompany
 
     Private Sub FormCompany_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         clear()
-
+        CenterToParent()
     End Sub
     Private Cls As New CompanyDAL
 

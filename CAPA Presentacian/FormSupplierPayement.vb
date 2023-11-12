@@ -15,6 +15,7 @@
     Private Sub FormSupplierPayement_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         txtGrandTotal.Text = Val(txtPaymentDue.Text)
         TextBox1.Text = DGV.Rows.Count.ToString
+        CenterToParent()
     End Sub
 
     Private Sub btnShow_click(sender As Object, e As EventArgs) Handles btnShow.Click

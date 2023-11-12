@@ -16,6 +16,7 @@
         txt_Productid.Text = Comfunction.CODE_GEN("Product", "Product_ID") + 1
         Comfunction.Show_COMBO("select_items", txt_item, "Name Item")
         txt_Productid.Focus()
+        CenterToParent()
     End Sub
 
     Private Sub btnNew_Click(sender As Object, e As EventArgs) Handles btnNew.Click

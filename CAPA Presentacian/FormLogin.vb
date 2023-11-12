@@ -57,6 +57,7 @@ Public Class FormLogin
 
     Public Sub LoginForm_Load() Handles MyBase.Load
         ComFunction.Show_COMBO("Select_User", ComboUser, "Username")
+        CenterToParent()
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click

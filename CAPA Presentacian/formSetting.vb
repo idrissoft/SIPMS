@@ -40,6 +40,8 @@
 
     Private Sub FormUser_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         ComFunction.Show_DGV(DGV, "Select_User")
+        CenterToParent()
+
     End Sub
 
     Private Sub btnDelete_Click(sender As Object, e As EventArgs) Handles btnDelete.Click

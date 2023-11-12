@@ -40,6 +40,7 @@ Public Class FormSupplier
 
     Private Sub FormSupplier_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         RestForm()
+        CenterToParent()
     End Sub
 
     Private Sub btn_New_Click(sender As Object, e As EventArgs) Handles btn_New.Click

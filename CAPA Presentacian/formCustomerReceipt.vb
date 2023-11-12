@@ -89,4 +89,8 @@ Public Class formCustomerReceipt
     Private Sub btnClose_Click(sender As Object, e As EventArgs) Handles btnClose.Click
         Close()
     End Sub
+
+    Private Sub formCustomerReceipt_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        CenterToParent()
+    End Sub
 End Class

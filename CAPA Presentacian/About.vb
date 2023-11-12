@@ -18,7 +18,7 @@
         Me.TextBoxDescription.Text = " Description : " & Environment.NewLine & disc
 
 
-
+        CenterToParent()
     End Sub
 
     Private Sub OKButton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles OKButton.Click

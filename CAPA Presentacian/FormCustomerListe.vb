@@ -7,6 +7,7 @@ Public Class FormCustomerListe
 
     Private Sub FormCustomerListe_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         ComFunction.Show_DGV(DGV, "Select_Customers")
+        CenterToParent()
     End Sub
 
 

@@ -26,6 +26,7 @@
             Case Receipt
                 ComFunction.Show_DGV(DGV, "GetCustomerSalesSummary")
         End Select
+        CenterToParent()
     End Sub
     Sub LoadLatestData()
 

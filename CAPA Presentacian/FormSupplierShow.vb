@@ -8,6 +8,7 @@
         Else
             ComFunction.Show_DGV(DGV, "_Stock_Product")
         End If
+        CenterToParent()
     End Sub
 
     Private Sub DGV1_CellClick(sender As Object, e As DataGridViewCellEventArgs) Handles DGV.CellClick

@@ -12,6 +12,7 @@ Public Class FormCategories
     Private Sub FormItem_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         txt_Codeitem.Text = ComFunction.CODE_GEN("Items", "Code_item") + 1
         clean()
+        CenterToParent()
     End Sub
 
     Private Sub clean()

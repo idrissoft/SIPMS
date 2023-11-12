@@ -199,6 +199,7 @@
 
     Private Sub FormSales_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         txtCodesales.Text = ComFunction.CODE_GEN("Sales", "Sales_Code") + 1
+        CenterToParent()
     End Sub
 
     Private Sub txtProductCode_TextChanged(sender As Object, e As EventArgs) Handles txtProductCode.TextChanged
